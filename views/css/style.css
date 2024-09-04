@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+thead tr th {
+  padding: 15px !important;
+  text-align: center !important;
+}
+
+tbody tr td {
+  text-align: center !important;
+}
+
+.table {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+}
+
+input[type=text],
+input[type=number] {
+  background-color: white !important;
+}
+
+.form {
+  background-color: rgb(23, 23, 23);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
